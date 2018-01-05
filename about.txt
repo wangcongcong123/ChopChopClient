@@ -1,0 +1,53 @@
+Documentations of our project------ChopChop
+
+Basic introduction to our APP
+
+Our group idea is to make a front named chopchop, which means as fast as possible.
+The application is a client-server program based on the java programming language. Besides, we also use databases to manage the information of our users. our project is primarily divided into four parts of works. Each person in our group takes care of one part. There are, separately, server, interface, game controller and databases. My responsibility is to partake the event controllers and partly the work of the database(back-up).
+
+Our application is designed for the fresh students in our campus, aiming to get them know our campus very well. There are main three functions in our app. The first function is the map one, which mainly provides our campus¡¯ map and some plan charts of some of teaching buildings. For example, if one new student wants to find a room 505 in teaching building 3, he or she can use the first function of our product to easily get the picture of where to go. This function, undoubtedly, brings great convenience to the fresh students. The curriculum schedule is the second function of our app. You can make your own curriculum schedule in this functions 
+
+
+Descriptions for each of versions:
+
+Version1-1:
+We achieved login and register functions in our application with the help of a properties file. In addition, we also get some fundamental interfaces done, such as loginfame, registerframe and mainframe.
+
+It is exactly like the following shown in pictures
+Insert Picture and project structure graph here¡­¡­
+
+Version1-2
+In this stage of our project, we basically finished all interfaces designs and some extra achievements of functions. For example, you could use the video-player function to play a video (a feature added to our application in the process of doing our project). Additionally, the map function is also available in this version. Users can get access to the map interface to have a look at the maps and do some general operations, such as, zooming and shrinking the map, changing the types of the campus map (classic and cute), getting access to the classrooms plans by clicking on certain position in the campus map and so on. By the way, in this version, all of the works of our project are just done without referring to the server and database. We just focus on the client.
+
+Insert Picture and project structure graph here¡­¡­
+
+
+
+
+Version2-1
+In this version, we did a breakthrough in our application. We achieved the connection between the client and server by the TCP protocol of socket and the data transmission from the server to the database through the JDBC relative API. The main things that we did in this version is the login and register function. Users can first register an account in the register interface and then use it to login in our main interface. Moreover, All the information of registered users is stored in the database we created before named chopchop. By the way, this version is also our alpha fruition in the module.
+
+Insert Picture and project structure graph here¡­¡­
+
+
+
+Version2-2
+Actually, we did a lot of works in this version. In the main frame, the function of uploading a user face was completed. User can upload their face pictures onto the facelabel component when they first get into the application and after that, they can also update their face following the same steps. In the CurriculumScheduleFrame, similarly, users can upload and update their curriculum schedules in the tables. As long as they made up their tables before, their curriculum schedules will be displayed on the interface automatically next time when they login in. The last huge job we did is in the achievement of canteen function. There are main four canteens achieved in the function. In each of the canteens, we provide a number of different dishes for the users to choose. Users can not only have a look at the basic introductions (including the descriptions, comments content, good comments numbers and so on) to every dish but also comment on these dishes or give a ¡®thumb up¡¯ to them if they like. In addition, two extra operations were added in the canteen function. One is the ¡®search and pick¡¯ operations which can make the users easier to find the information of the dished they want to pick up to look as long as they input the key words into the research box. The other one is the real-time chatting operation which provides a chance for the online users to interact with each other.
+
+
+
+Insert Picture and project structure graph here¡­¡­
+
+
+
+
+Final Release-Version3
+This is our final delivery version. Some optimizations and interfaces¡¯ beautifications were made in the final version.
+Insert Picture and project structure graph here¡­¡­
+
+Last, I¡¯d like to mention the extra features added to our application in the process again. One is the function of uploading your face in the main operation and another is achievement of the simple video-player which is used for playing the advertising video of our campus and the last the two different kinds of language versions, English and Chinese.
+
+
+@copyright BJUT, BDIC Eng Project Module Group 12 Work, Software Engineering, Class 2 of 2014
+Address: Beijing,ChaoYang District,100 PinLeYuan
+Phone:18810925338, Mr Wang    
